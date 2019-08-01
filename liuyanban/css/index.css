@@ -1,0 +1,51 @@
+
+        #wrap{
+            width: 800px;
+            height: 800px;
+            border: 1px solid gainsboro;
+            margin:  0 auto;
+        }
+        #welcome{
+            width: 65px;
+            height: 25px;
+            margin: 0 auto;
+        }
+        #user{
+            float: right;
+        }
+        #leaveAMsg{
+            /*width: 300px;*/
+            /*height: 100px;*/
+            margin-top: 60px;
+        }
+        #leaveAMsg textarea{
+            width: 240px;
+            height: 96px;
+        }
+        #msgs{
+            width: 800px;
+            height: 570px;
+            border: 1px solid gray;
+            margin: 20px 0;
+        }
+        #msgs li{
+            width: 100%;
+            /*height: 50px;*/
+            /*line-height: 50px;*/
+            font-size: 20px;
+            list-style: outside;
+        }
+        #msgs li a{
+            text-decoration: none;
+            color: black;
+        }
+        #msgs li a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        #msgs li span{
+            font-size: 16px;
+        }
+        #msg_time{
+            margin-left: 30px;
+        }
